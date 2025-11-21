@@ -26,56 +26,56 @@
 repos += {
     "name": "os",
     "path": "os",
-    "url": "https://github.com/freenas/os.git",
-    "branch": "truenas/13.3-stable"
+    "url": "https://github.com/xiphis/freenas-os.git",
+    "branch": "main"
 }
 
 repos += {
     "name": "freenas",
     "path": "freenas",
-    "url": "http://github.com/freenas/freenas.git",
-    "branch": "truenas/13.3-stable"
+    "url": "http://github.com/xiphis/freenas-middleware.git",
+    "branch": "main"
 }
 
 
 repos += {
     "name": "webui",
     "path": "webui",
-    "url": "http://github.com/freenas/webui.git",
-    "branch": "TN-13.3-U1.2"
+    "url": "http://github.com/xiphis/freenas-webui.git",
+    "branch": "main"
 }
 
 repos += {
     "name": "ports",
     "path": "ports",
-    "url": "https://github.com/freenas/ports.git",
-    "branch": "truenas/13.3-stable"
+    "url": "https://github.com/freebsd/freebsd-ports.git",
+    "branch": "main"
 }
 
 repos += {
     "name" :"py-licenselib",
     "path": "py-licenselib",
-    "url": "https://github.com/freenas/licenselib.git",
-    "branch": "master"
+    "url": "https://github.com/xiphis/freenas-licenselib.git",
+    "branch": "main"
 }
 
 repos += {
     "name": "freenas-pkgtools",
     "path": "freenas-pkgtools",
-    "url": "https://github.com/freenas/freenas-pkgtools.git",
-    "branch": "master"
+    "url": "https://github.com/xiphis/freenas-pkgtools.git",
+    "branch": "main"
 }
 
 repos += {
     "name": "py-bsd",
     "path": "py-bsd",
-    "url": "https://github.com/freenas/py-bsd.git",
-    "branch": "master"
+    "url": "https://github.com/xiphis/freenas-pybsd.git",
+    "branch": "main"
 }
 
 repos += {
     "name": "iocage",
     "path": "iocage",
-    "url": "https://github.com/freenas/iocage.git",
-    "branch": "truenas/13.0-stable"
+    "url": "https://github.com/xiphis/freenas-iocage.git",
+    "branch": "main"
 }
