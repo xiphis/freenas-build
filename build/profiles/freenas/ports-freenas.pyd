@@ -54,6 +54,19 @@ ports += {
     ]
 }
 
+ports += "freenas/inadyn-troglobit"
+ports += "freenas/scanlnk"
+ports += "freenas/areca-cli"
+ports += "freenas/sedutil"
+ports += "freenas/throttle"
+
+ports += {
+    "name": "freenas/py-ws4py",
+    "options": ["OPTIONS_FILE_UNSET+=CHERRYPY", "OPTIONS_FILE_UNSET+=GEVENT"]
+}
+
+ports += "freenas/libhyve-remote"
+
 ports += {
     "name": "freenas/freenas-migrate93",
     "options": [
