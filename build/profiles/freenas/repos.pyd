@@ -45,6 +45,12 @@ repos += {
     "branch": "main"
 }
 
+#repos += {
+#    "name": "ports",
+#    "path": "ports",
+#    "url": "https://github.com/xiphis/freenas-ports.git",
+#    "branch": "main"
+#}
 repos += {
     "name": "ports",
     "path": "ports",
